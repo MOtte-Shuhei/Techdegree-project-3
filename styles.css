@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(242, 255, 255);
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  text-align: center;
+}
+
+h2,legend {
+  color: rgb(125, 170, 254);
+}
+
+
+h1 {
+  background-color: rgb(125, 170, 254);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding: 1.5rem 1.1rem 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 400;
+  padding: 0 0 2rem;
+  margin: 0;
+  border-bottom: 3px solid rgb(11, 49, 96);
+  margin-bottom: 0.2rem;
+}
+
+
+fieldset {
+  border: none;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+legend {
+  display: block;
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgb(44, 42, 42);
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+label {
+  font-size: 1rem;
+  color: rgb(174, 174, 174);
+  margin-bottom: 0.5rem;
+}
+
+input ,select,textarea {
+  padding: 1rem;
+  background-color: rgb(244, 244, 244);
+  border-radius: 0.3rem;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+fieldset div {
+  margin: 0.7rem 0;
+}
+
+input[type="checkbox"] , input[type="radio"] {
+  margin-right: 0.4rem;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  display: block;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 5px;
+  background-color: rgb(42, 163, 122);
+  color: white;
+  font-size: 1.2rem;
+}
+
+footer {
+  font-size: 1rem;
+  padding: 2rem 0 12rem;
+  color: rgb(174, 174, 174);
+}
+
+/* Media Queries */
+
+@media screen and (min-width:768px) {
+  header {
+    width: 100%;
+  }
+  header p,form  {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+  }
+ 
+  .input-container {
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .input-container label{
+    width: 30%;
+  }
+
+  .input-container input,
+  .input-container select {
+    width: 70%;
+  }
+
+  input#zip {
+    width: 25%;
+  }
+}
+
+
+
