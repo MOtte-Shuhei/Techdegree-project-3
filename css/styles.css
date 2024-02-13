@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-main {
-  width: 100%;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -16,9 +12,15 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+main {
+  width: 100%;
+}
+
 header {
   text-align: center;
 }
+
+
 
 h2,legend {
   color: rgb(125, 170, 254);
@@ -47,6 +49,7 @@ p {
   border-bottom: 3px solid rgb(11, 49, 96);
   margin-bottom: 0.2rem;
 }
+
 
 
 fieldset {
@@ -97,6 +100,10 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+input#zip {
+  width: 50%;
+}
+
 button {
   display: block;
   outline: none;
@@ -126,7 +133,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 0.3rem;
   }
- 
+
+
   .input-container {
     flex-direction: row;
     align-items: center;
@@ -146,6 +154,3 @@ footer {
     width: 25%;
   }
 }
-
-
-
