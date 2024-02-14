@@ -14,12 +14,20 @@ body {
 
 main {
   width: 100%;
+  border-top: 2px solid rgb(44, 42, 42);
+  max-width: 600px;
 }
 
 header {
   text-align: center;
+  width: 100%;
 }
 
+header p  {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 0.3rem;
+}
 
 
 h2,legend {
@@ -62,7 +70,7 @@ legend {
   display: block;
   font-size: 1.3rem;
   padding-top: 1.5rem;
-  border-top: 2px solid rgb(44, 42, 42);
+  
   margin-bottom: 1.2rem;
   width: 100%;
 }
@@ -127,11 +135,6 @@ footer {
 @media screen and (min-width:768px) {
   header {
     width: 100%;
-  }
-  header p,form  {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 0.3rem;
   }
 
 
